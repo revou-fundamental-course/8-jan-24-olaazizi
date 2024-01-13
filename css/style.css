@@ -1,0 +1,63 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color:darkgreen;
+    background-color:antiquewhite;
+}
+
+header h4 {
+    margin-top: 32px;
+    color:darkolivegreen;
+
+}
+
+header p{ 
+    margin-top: -10px;
+    font-size: x-small;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#squareSide{
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid darkolivegreen;
+    padding: 10px;
+}
+
+#squareSide:focus {
+    border: solid black;
+
+}
+
+button {
+    background-color:darkgreen;
+    color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: forestgreen;
+}
+
+button:active{
+    background-color:azure;
+    transform: translateY(2px);
+}
